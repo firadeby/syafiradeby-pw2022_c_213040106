@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0 !important;
+}
+
+body {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 13%);
+    width: 100%;
+    color: black !important;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar li a {
+	color: black !important;
+}
+
+.navbar-brand {
+	color: #17a2b8 !important;
+}
+
+.navbar li a:hover {
+	transition: 0.5s;
+	color: #17a2b8 !important ;
+}
+
+.login {
+	background-color: #17a2b8 !important;
+	color: white !important;
+}
+
+.hero {
+	background: linear-gradient( 160deg, #17a2b8, #17a2b8 );
+}
+
+.hero-row {
+	min-height: 100vh;
+}
+
+
+.box-content {
+	margin-top: -175px;
+	background: linear-gradient( 90deg, #fff, #fff );
+	border-radius: 30px;
+
+}
+
+.card {
+	border-radius: 10px;
+}
+
+.row-login {
+	min-height: 100vh;
+}
+
+.card-limit{
+	height: 225px;
+}
+
